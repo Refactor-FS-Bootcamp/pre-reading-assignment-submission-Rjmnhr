@@ -1,0 +1,65 @@
+<!doctype html>
+<head>
+ <meta charset="utf-8">
+<link rel="stylesheet" href="formassignment1.css">
+<title>Assignment Form1</title>
+</head>
+<body>
+<div class="heading">
+		<h1 style=" color:#773fd1; ">ADVERTISING <span style="color:orange">ESTIMATE</span></h1><br>
+	</div>
+	</br>
+
+<div class="one">
+<form class="form1" action="#" onsubmit="required()">
+
+<label for="fname"><b>Name/Company name<span style="color:red">*</span></b></label><br><br>
+<input id="fname" type="text" name="firstname" placeholder="Enter name" maxlength="10" required></br></br><br>
+
+<label for="email" ><b>Enter your mail <span style="color:red">*</span></b></label><br><br>
+<input id="email" type="email" name="email" placeholder="Enter your mail" required><br><br><br>
+
+<label for="ads"><b>Ad Start date<span style="color:red">*</span></b></label><br><br>
+<input id="ads" type="date" name="ads" min="2019-05-09" max="2024-01-26" required></br></br><br>
+
+<label for="ade"><b>Ad End date<span style="color:red">*</span></b></label><br><br>
+<input id="ade" type="date" name="ade" min="2020-05-09" max="2024-01-26" required></br></br><br>
+
+<label for="size"><b>Advertising Size (pixels) </b></label><br><br>
+<label style="color:white;"> <input id="size" type="radio" name="size"/><span style="color:#773fd1">300 x 250  &nbsp; 
+ <input id="size" type="radio" name="size" />468 x 60 &nbsp;
+ <input id="size" type="radio" name="size" />320 x 50</span></label><br><br><br>
+ 
+ 
+<label for="skills"><b>Which sites would you like to Advertise on?</></label><br><br>
+<label style="color:white;">
+<input  id="skills" type ="checkbox" name="skills"/><span style="color:#773fd1">Option 1 &nbsp;
+<input id="skills" type ="checkbox" name="skills"/>Option 2&nbsp;
+<input id="skills" type ="checkbox" name="skills"/>option 3</span></label><br><br><br>
+
+<label for="webad"><b>Website to Advertised<span style="color:red">*</span></b></label><br><br>
+<input id="webad" type="text" name="webad" placeholder="Enter here" required></br></br><br>
+
+<label for="cmmnt" >Comments</label><br><br>
+<textarea id="cmmnt" rows="5" cols="40" placeholder="Enter comments here"></textarea><br><br><br>
+
+<div class="two">
+&nbsp;
+</div>
+
+<input id="one"  type="submit" name="sb"/>
+
+
+
+<script >
+function required()
+	{
+		alert("Data submitted Successfully");
+		return true;
+	}
+
+</script>
+</script>
+</form>
+</body>
+</html>
